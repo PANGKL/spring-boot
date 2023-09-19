@@ -34,3 +34,4 @@ Error SpringBoot start service
 5. @RequestParam 可轉換 field 名
 6. @PathVariable 可隱藏 field 名轉成 path
 7. 通常入 prama 都是 String, but int 都可,implicty 有 programme 處理 data type validation
+8. BeanCreator(start project 自動 intialize) 隨時被 class autoWired, if repeat dataType of @Beam, should be annotate(name = "") and @Qualifier

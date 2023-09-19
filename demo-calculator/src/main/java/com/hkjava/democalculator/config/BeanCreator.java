@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration // Member of Component
 public class BeanCreator {
 
-  @Bean(name =  "arrayList")
+  @Bean(name = "arrayList")
   public List<String> createArrayList() {
     List<String> strings = new ArrayList<>();
     strings.add("abc");
@@ -19,7 +19,7 @@ public class BeanCreator {
   }
 
   @Bean(name = "linkedList")
-  public List<Integer> createLinkList() {
+  public List<String> createLinkList() {
     return new LinkedList<>();
 
   }

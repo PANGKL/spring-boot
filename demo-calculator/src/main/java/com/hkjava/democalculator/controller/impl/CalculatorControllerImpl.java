@@ -14,7 +14,7 @@ import com.hkjava.democalculator.service.CalculatorService;
 @Controller
 @ResponseBody
 @RestController // @Controller + @ResponeBody
-@RequestMapping(value = "api/v2")
+@RequestMapping(value = "/api/v2")
 public class CalculatorControllerImpl implements CalculatorOperation {
 
   @Autowired

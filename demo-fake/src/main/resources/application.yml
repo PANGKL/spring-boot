@@ -1,0 +1,8 @@
+server:
+  port: 8085
+
+api:
+  jsonplaceholder:
+    domain: "fakestoreapi.com"
+    endpoint:
+      user: "/users"

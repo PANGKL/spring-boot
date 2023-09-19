@@ -10,7 +10,7 @@ import com.hkjava.democalculator.service.CalculatorService;
 public class CalculatorServiceImpl implements CalculatorService {
 
   @Autowired
-  // @Qualifier(value = "linkedList")
+  @Qualifier(value = "arrayList")
   List<String> strings;
 
   @Override

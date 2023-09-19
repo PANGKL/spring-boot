@@ -1,0 +1,12 @@
+server:
+  port: 8086
+
+api:
+  finnhub:
+    domain: 'finnhub.io/api/v1'
+    type:
+      stock: 'stock/profile2?symbol='
+      quote: 'quote?symbol='
+    apikey:
+      key: '&token=ck4fs9hr01qus81pv7i0ck4fs9hr01qus81pv7ig'
+
